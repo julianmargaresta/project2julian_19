@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="id.sch.smktelkommlg.learn.project2.Main3Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/R1"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:text="Belum Menikah" />
+
+        <RadioButton
+            android:id="@+id/R2"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:text="Menikah" />
+
+        <RadioButton
+            android:id="@+id/R3"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:text="Duda" />
+
+        <RadioButton
+            android:id="@+id/R4"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:text="Janda" />
+    </RadioGroup>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilJA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/editTextJA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah Anak"
+            android:inputType="numberSigned" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil" />
+
+</LinearLayout>

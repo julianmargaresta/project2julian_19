@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project2</string>
+    <string name="nama">nama</string>
+    <string name="Nama">Nama</string>
+    <string name="Tahun_kelahiran">Tahun Kelahiran</string>
+    <string name="OK">OK</string>
+    <string name="Hasil">Hasil</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="id.sch.smktelkommlg.learn.project2.Main4Activity">
+
+    <TextView
+        android:id="@+id/TextViewHobi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobi"
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:id="@+id/CB1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Membaca" />
+
+    <CheckBox
+        android:id="@+id/CB2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Olahraga" />
+
+    <CheckBox
+        android:id="@+id/CB3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menggambar" />
+
+    <CheckBox
+        android:id="@+id/CB4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menulis" />
+
+    <CheckBox
+        android:id="@+id/CB5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nonton Film" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/textViewHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        tools:text="Hasil" />
+</LinearLayout>
