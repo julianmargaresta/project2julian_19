@@ -24,7 +24,7 @@ public class Main2Activity extends AppCompatActivity {
         etTahun = findViewById(R.id.editTextTahun);
         ok = findViewById(R.id.buttonOK);
         Hasil = findViewById(R.id.textViewHasil);
-
+        //test
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
